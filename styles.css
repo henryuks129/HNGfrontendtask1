@@ -13,7 +13,7 @@ body {
 
 main {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     background-color: rgb(184, 107, 63);
     display: grid;
     place-items: center;
@@ -73,8 +73,9 @@ header{
     backdrop-filter: blur(6.6px);
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(76, 63, 63, 0.30);
-    padding: 8px;
+    padding: 8px 8px 0px 8px;
     margin: 5px 0px;
+    height: 100%;
 }
 
 .goals-header{
