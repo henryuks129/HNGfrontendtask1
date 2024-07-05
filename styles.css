@@ -118,7 +118,7 @@ footer{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            height: fit-content;
+            height: 100%;
         }
     
         section {
