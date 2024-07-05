@@ -26,8 +26,6 @@ main {
 }
 
 .main-container{
-    /* display: grid;
-    place-items: center; */
     background: rgba(76, 63, 63, 0.26);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -42,7 +40,7 @@ header{
     place-items: center;
     color: white;
     font-size: 30px;
-    margin-bottom: 10px;
+    /* margin-bottom: px; */
     /* font-family: ; */
 }
 
@@ -54,6 +52,7 @@ header{
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(76, 63, 63, 0.30);
     padding: 12px;
+    margin: 5px 0xp;
 } 
 
 .goals-main{
@@ -64,9 +63,19 @@ header{
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(76, 63, 63, 0.30);
     padding: 8px;
+    margin: 5px 0px;
 }
 
-
+.time-section{
+    background: rgba(76, 63, 63, 0.26);
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(76, 63, 63, 0.30);
+    padding: 8px;
+    margin: 5px 0px;
+}
 
 .goals-header{
     margin-bottom: 6px;
@@ -101,19 +110,20 @@ footer{
 }
 
 /* @media (min-width: 600px) {
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+    } */
 
-    section {
-        flex: 1 1 calc(50% - 1em);
-        margin: 0.5em;
-    }
-} */
+    @media (max-width: 600px) {
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        section {
+            flex: 1 1 calc(50% - 1em);
+            margin: 0.5em;
+        }
 
-@media (max-width: 576px) {
     header{
         display: grid;
         place-items: center;
@@ -128,4 +138,6 @@ footer{
         flex-direction: column;
         margin-top: 10px;
   }
+
+  
 }
