@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Tech Goals</title>
+</head>
+<body>
+    <main>
+        <section class="container main-container">
+            <header>
+                <h1>My Tech Goals for the Next 2 Years</h1>
+            </header>
+                <section class="details-card">
+                    <div class="details-main">
+                        <h2>About Me</h2>
+                        <h3 data-testid="slackDisplayName"></h3>
+                        <h3 data-testid="slackEmail"></h3>
+                        <img src="./assets/slackoriginalimage.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+                        <h4 class="my-Track" data-testid="myTrack"></h4>
+                    </div>
+                    <div class="goals-main">
+                        <h2 class="goals-header">My Goals</h2>
+                        <ul data-testid="myGoals">
+                            <li>Become an HNG finalist</li>
+                            <li>Master React and Next.js</li>
+                            <li>Contribute to open-source projects</li>
+                            <li>Learn cloud computing with AWS</li>
+                            <li>Work on my backend skills</li>
+                            <li>Transition into being a fulltime backend engineer</li>
+                            <li>Develop a cloud service provider</li>
+                            <li>Host a tech conference</li>
+                            <li>Transition into java</li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2>Current Information</h2>
+                    <p data-testid="currentTimeUTC"></p>
+                    <p data-testid="currentDay"></p>
+                </section>
+                <section>
+                    <h2>Links</h2>
+                    <ul>
+                        <li>HNG is an internship that helps budding developers hone their skills <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink">HNG Learn</a></li>
+                        <li><a href="https://keyword.dog" target="_blank" data-testid="keywordLink">Keyword Dog</a></li>
+                        <li><a href="https://scrapeanyweb.site" target="_blank" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                    </ul>
+                </section>
+            <footer>
+                <p>&copy; henryuks <span data-testid="currentYear"></span></p>
+            </footer>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
